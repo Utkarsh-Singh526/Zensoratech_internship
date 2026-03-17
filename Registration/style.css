@@ -1,0 +1,59 @@
+body{
+font-family:Arial;
+background:#77d9d9;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.form-container{
+background:white;
+padding:30px;
+border-radius:8px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:2px solid #8db335;
+border-radius:5px;
+}
+
+/* focus effect */
+input:focus{
+border-color:#3b78b9;
+outline:none;
+}
+
+/* valid input */
+input:valid{
+border-color:green;
+}
+
+/* invalid input */
+input:invalid{
+border-color:red;
+}
+
+button{
+width:100%;
+padding:10px;
+background:blue;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:pink;
+}
+
+#message{
+margin-top:10px;
+font-size:14px;
+}
